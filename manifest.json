@@ -1,0 +1,28 @@
+{
+
+    "manifest_version": 2,
+    "name": "Denitobookmarks",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icons/border-48.png",
+        "default_title": "Denitobookmarks",
+        "default_popup": "hello.html"
+      },
+    "description": "organizes bookmarks.",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "background": 
+      {
+        "scripts": ["background.js"]
+      },
+      "permissions":[
+        "bookmarks",
+        "tabs"
+      ]
+    
+  
+  }
+  
